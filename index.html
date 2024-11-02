@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='uk'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Магазин пончиків</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff3f3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #ff6b6b;
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .donut-image {
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .donut-image:hover {
+            transform: rotate(10deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Світ пончиків</h1>
+    <img src="/uploads/2023/02/donut.png" alt="Пончик" class="donut-image">
+</body>
+</html>
